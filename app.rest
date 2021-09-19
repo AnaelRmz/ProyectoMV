@@ -1,0 +1,26 @@
+POST http://localhost:3000/registrar
+Content-Type: application/json
+
+{
+    "nombre":"Comercio 03",
+    "direccion":"Chalatenango"
+}
+###
+GET http://localhost:3000/listadoComercios
+###
+GET http://localhost:3000/uno/613bf8aa49f3c31755ee0706
+###
+PUT http://localhost:3000/editarComercio/6139723ef22b15c9a644bfee
+Content-Type: application/json
+
+{
+    "nombre":"Comercio 01 modificado",
+    "direccion":"Chalatenango"
+}
+###
+DELETE http://localhost:3000/eliminarComercio/613bf97e4cb5aa62321c8bad
+
+//show dbs
+//use empredeapp
+//show collections
+//db.comercios.find()
