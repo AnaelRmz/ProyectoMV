@@ -3,6 +3,11 @@ const Morgan =require("morgan");
 
 const RutasComercio =require("./routes/comercio.routes.js")
 
+const swaggerJsDoc = require('swagger-jsdoc');
+const swaggerUI = require('swagger-ui-express');
+
+
+
 
 const app = Express();
 app.use(Express.json());

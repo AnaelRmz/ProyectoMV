@@ -2,8 +2,8 @@ POST http://localhost:3000/registrar
 Content-Type: application/json
 
 {
-    "nombre":"Comercio 03",
-    "direccion":"Chalatenango"
+    "nombre":"Comercio 01",
+    "direccion":"Santa Ana"
 }
 ###
 GET http://localhost:3000/listadoComercios
